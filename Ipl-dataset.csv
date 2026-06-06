@@ -1,0 +1,6 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("amanullahkhan9093/ipl-dataset-20082022")
+
+print("Path to dataset files:", path)
